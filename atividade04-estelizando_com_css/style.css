@@ -1,0 +1,14 @@
+body{
+    background-color: #4a76b8;
+}
+@font-face {
+    font-family: 'Bowlby One SC','Wallpoet';
+    src: url('../fonts/BowlbyOneSC-Regular.ttf') format('regular');
+    src: url('../fonts/Wallpoet-Regular.ttf') format('regular');
+}
+.titulo{
+    color: white;
+    font-size: 100px;  
+    font-family: 'Bowlby One SC','Wallpoet','Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+    text-align: center; 
+}
