@@ -1,0 +1,37 @@
+body{
+    background-color: rgb(57, 152, 180);
+}
+@font-face {
+    font-family:'PoetsenOne';
+    src: url('../fonts/PoetsenOne-Regular.ttf') format('ttf');
+}
+.titulo{
+    color: blue;
+    font-size: 50px;
+    text-align: center;
+    font-family: 'PoetsenOne', 'Franklin Gothic Medium';
+}
+.interesse{
+    color: black;
+    font-size:26px;
+    text-align: center;
+}
+.hobbies{
+  
+    font-size: 20px;
+    
+}
+.texto{
+    font-weight: 100;
+    font-family: 'PoetsenOne', 'Franklin Gothic';
+    text-align: center;
+    
+}
+
+.redes1{
+    color: white;
+
+}
+.redes{
+    color: white;
+}
