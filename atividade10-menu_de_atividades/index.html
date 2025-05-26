@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Atividade 10- Menu de Atividades</title>
+    <link rel="stylesheet" href="./css/style.css">
     
 </head>
 <!--Atividade 10 – Menu de Atividades
@@ -15,52 +16,17 @@ Crie uma página com:
 - Os quadrados devem estar lado a lado, cada linha deve ter 3 quadrado
 - Utilize o CSS para personalizar os quadrados (ex: hover, tamanho, espaçamento e cores)-->
 <body>
-    <h1>Menu de Atividades</h1>
-    <div class="container">
-        <div class="card">
-            <h2>Atividade 1</h2>
-            <p>Descrição da Atividade 1</p>
-            <a href="atividade1.html">Ir para Atividade 1</a>
-        </div>
-        <div class="card">
-            <h2>Atividade 2</h2>
-            <p>Descrição da Atividade 2</p>
-            <a href="atividade2.html">Ir para Atividade 2</a>
-        </div>
-        <div class="card">
-            <h2>Atividade 3</h2>
-            <p>Descrição da Atividade 3</p>
-            <a href="atividade3.html">Ir para Atividade 3</a>
-        </div>
-    </div>
-
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            background-color: #f4f4f4;
-            margin: 0;
-            padding: 20px;
-        }
-        .container {
-            display: flex;
-            flex-wrap: wrap;
-            justify-content: space-between;
-        }
-        .card {
-            background-color: #fff;
-            border-radius: 5px;
-            box-shadow: 0 0 10px rgba(0,0,0,0.1);
-            margin: 10px;
-            padding: 20px;
-            width: calc(33% - 40px);
-            transition: transform 0.3s;
-        }
-        .card:hover {
-            transform: scale(1.05);
-        }
-        h1 {
-            text-align: center;
-        }
-    </style>
+    <section class="fundo">
+        <figure class="quadrado-pai">
+            <img class= "img-filho" src="./img/teste imagem.jpg" alt="">
+        <figcaption>
+            <h1>Atividade 1 - Títulos e Parágrafos</h1>
+            <p>Crie uma página HTML com o seguinte conteúdo:</p>
+                
+            <a href="https://brian-loop.github.io/atividades_HTML/atividade01-titulos_e_paragrafos/" target="_blank">Atividade 1</a> <!-- Link para a atividade 1 -->
+            <!--'<a>' usamos para colocarmos link no nossa pagina-->
+        </figcaption>
+        </figure>
+    </section>
 </body>
 </html>

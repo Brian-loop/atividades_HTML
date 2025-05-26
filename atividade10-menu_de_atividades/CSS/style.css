@@ -1,26 +1,57 @@
-body {
-    font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
+*{
     margin: 0;
-    padding: 20px;
 }
-.container {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
+.fundo {
+    height: 100vh;   
 }
-.card {
-    background-color: #fff;
-    border-radius: 5px;
-    box-shadow: 0 0 10px rgba(0,0,0,0.1);
-    margin: 10px;
-    padding: 20px;
-    width: calc(33% - 40px);
-    transition: transform 0.3s;
-}
-.card:hover {
-    transform: scale(1.05);
-}
-h1 {
+.quadrado-pai {
+    background-color: #D9961A;
+    width: 270px;
+    height: 400px;
+    border: black 2px solid; /* Borda preta de 2px */
+    color: white; /* Cor do texto */
     text-align: center;
+
+    /*margin: 10px 20px 20px 100px; /* Margens: superior, direita, inferior, esquerda */
+    margin-top: 10px; /* Margem superior */
+    margin-right: 20px; /* Margem direita */
+    margin-bottom: 20px; /* Margem inferior */
+    margin-left: 100px; /* Margem esquerda */
+
+    border-radius: 20px;
+
+    /*padding: 10px;/* Espaçamento interno para todos os lados*/
+    padding-top: 10px; /* Espaçamento interno superior */
+    padding-right: 10px; /* Espaçamento interno direito */
+    padding-bottom: 10px; /* Espaçamento interno inferior */
+    padding-left: 10px; /* Espaçamento interno esquerdo */
+}
+.quadrado-pai img {
+    height: 200px;
+    border-radius: 20px;
+    width: 100%; /* Ajuste a largura da imagem */
+
+    object-fit: cover; /* Garante que a imagem preencha o espaço sem distorção */
+    object-position: center; /* Centraliza a imagem dentro do espaço */
+}
+.quadrado-pai a {
+    font-size: 16px; /* Tamanho da fonte do link */
+    text-decoration: none; /* Remove o sublinhado do link */
+    color: white; /* Cor do texto do link */    
+    text-transform: lowercase; /* Transforma o texto do link em minúsculas */
+    font-family: 'Trebuchet MS'; /* Fonte do link */
+    
+    background-color: #D9961A; /* Cor de fundo do link */
+    padding: 5px; /* Espaçamento interno do link */
+    border-radius: 5px; /* Bordas arredondadas do link */
+    border: 1px solid #9E6FA3; /* Borda preta de 3px */
+
+    transition: 1s; /* Transição suave de 1 segundo */
+}
+.quadrado-pai a:hover {   /* " :hover " é o efeito ao passar o mouse sobre o link */
+    background-color: #9E6FA3; /* Cor de fundo do link ao passar o mouse */
+    color: white; /* Cor do texto do link ao passar o mouse */
+    transition: 1s; /* Transição suave de 1 segundo */
+    border: 1px solid #D9961A; /* Borda de 1px ao passar o mouse */
+
 }
