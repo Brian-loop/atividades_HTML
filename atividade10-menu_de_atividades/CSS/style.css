@@ -53,5 +53,14 @@
     color: white; /* Cor do texto do link ao passar o mouse */
     transition: 1s; /* Transição suave de 1 segundo */
     border: 1px solid #D9961A; /* Borda de 1px ao passar o mouse */
+}
+.grade {
+    display: grid; /* Define o layout como grid */
+    grid-template-columns: 400px 400px 400px; /* Define três colunas de 400px cada */
+    grid-template-rows: 500px 500px 500px; /* Define uma linha de 400px */
 
 }
+.texto {
+    font-size: 12px; /* Tamanho da fonte do texto */
+}
+
